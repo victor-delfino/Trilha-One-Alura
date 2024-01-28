@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Formação de <span class="titulo-destaque">Back-end</span></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Victor Hugo, <strong>Back-end com especialidade em java, spring e javascript.</strong>  Ajudo pequenos negócios a colocarem em prática boas ideias. Vamos conversar?</p>
+            <h1 class="apresentacao__conteudo__titulo">Formação de <strong class="titulo-destaque">Back-end</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Victor Hugo, Desenvolvedor Back-end com especialidade em java, spring, MySQL e javascript. Conheça mais sobre mim nas redes abaixo:</p>
             <div class="apresentacao__links"> 
-            <a class="apresentacao__links__link" href="https://github.com/victor-delfino">GitHub</a>
-            <a class="apresentacao__links__link" href="https://linkedin.com">Linkedin</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+            <a class="apresentacao__links__link" href="https://github.com/victor-delfino">
+                <img src="asset/github.png">
+                GitHub
+            </a>
+            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/victor-delfino">
+                <img src="asset/linkedin.png">
+                Linkedin
+            </a>
             </div>
         </section>
+        <img class="apresentacao__imagem" src="asset/FotoPerfilVic.jpeg" alt="Toji">
     </main>
-    <footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Victor.</p>
     </footer>
 </body>
 </html>
