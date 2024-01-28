@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Criptografia</title>
+    <link rel="stylesheet" href="estilocripto.css">
+  </head>
+
+  <body>
+    <h1 class="cabecalho">Desafio Criptografia</h1>
+    <div class="div">
+    <label class="etiqueta" for="text">Texto:</label>
+    <input type="text" id="text" placeholder="Digite aqui" />
+
+    <label class="etiqueta" for="option">Opção:</label>
+    <select class="select" id="option">
+      <option class="escolher" value="criptografar">Criptografar</option>
+      <option class="escolher" value="descriptografar">Descriptografar</option>
+    </select>
+    <button class="botao" onclick="processartexto()">Processar</button>
+    <p class="saida" id="result"></p>
+    </div>
+    
+    <script src="criptografia.js"></script>
+  </body>
+</html>
